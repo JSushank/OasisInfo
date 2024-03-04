@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK PAGE</title>
+   <!-- <link rel="stylesheet" href="/public/home.css">-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap');
+
+        *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Work Sans', sans-serif;
+        }
+
+        *::selection{
+        background-color: rgb(73, 146, 241);
+        }
+
+        body{
+        background: linear-gradient(#f1f502,#d6cf0e,#d3d00d,#050506); 
+        }
+
+        .home-content{
+        padding: 20px;
+        min-height: 100vh;
+        }
+
+        .hc-head{
+        text-align: center;
+        padding: 20px;
+        font-weight: 600;
+        font-size: 50px;
+        color:#141e46;
+
+        }
+
+        .home-content .home-bio{
+        margin: 5px 0;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        } 
+
+        .trans{
+        position: relative;
+        margin:15px;
+        overflow: hidden;
+        border: 2px solid #182322;
+        border-radius: 10px;
+        cursor:pointer;
+        width:400px;
+        height:350px;
+        background: rgba(255, 255, 255, 0.363);
+        padding: 10px 0px;
+
+        }
+
+        .trans-con {
+        padding:30px;
+        text-align:center;
+        }
+
+        .trans-head{
+        margin-top: 10px;
+        text-align:center;
+        padding:10px;
+        font-size: larger;
+        }
+
+
+        .box-text #btn{
+        align-content: center;
+        margin:20px 30px;
+        padding: 0.938rem 9.188rem;
+        border: none;
+        color: #fff;
+        font-size: 21px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        border-radius: 10px;
+        background-color:#c70039;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        }
+
+        .box-text #btn:hover{
+        background-color:#FFF5E0;
+        color: #000000;
+        }
+
+        .p-con{
+        text-align: center;
+        padding: 20px;
+        font-size:25px;
+        }
+    </style>
+</head>
+<body>
+    <section class="home-content">
+        <h1 class="hc-head"><u>TASK LIST'S</u></h1>
+        <div class="p-con">
+            <p style="color:#c70039">This website contains the successfully completed tasks of <b>LEVEL 2</b> as a part of the Web-Development and Designing Internship at <b><i>Oasis Infobyte</i></b>.
+            </p>
+        </div>
+        
+        <div class="home-bio">
+    
+            <div class="trans">
+                <div class="trans-head">
+                    <h3><u>TASK-1</u></h3>
+                </div>
+                <div class="trans-con">
+                   <p><h2 style="color: #22092c;">CALCULATOR</h2><br><br>It takes a little skill to create a calculator with basic mathematical functionalities using CSS, HTML, and JavaScript.</p>
+                </div>
+                <div class="box-text">
+                    <a href="Task 1/index.html" style="color:#fff;"><button id="btn">View Task</button></a>
+                </div>
+            </div>
+        
+            <div class="trans">
+                <div class="trans-head">
+                    <h3><u>TASK-2</u></h3>
+                </div>
+                <div class="trans-con">
+                    <p><h2 style="color: #22092c; padding:10px">TRIBUTE PAGE</h2><br><br>Create a page for someone you admire using HTML, CSS</p>
+                </div>
+                <div class="box-text">
+                    <a href="Task 2/index.html" style="color:#fff;"><button id="btn">View Task</button></a>
+                </div>
+            </div>
+
+            <div class="trans">
+                <div class="trans-head">
+                    <h3><u>TASK-3</u></h3>
+                </div>
+                <div class="trans-con">
+                    <p><h2 style="color: #22092c;">TO-DO WEBAPP</h2><br><br>Develop a basic To-Do WebApp that enables a user to add daily tasks. It should show Completed and Incomplete Tasks.</p>
+                </div>
+                <div class="box-text">
+                    <a href="Task 3/index.html" style="color:#fff;"><button id="btn">View Task</button></a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    
+    
+</body>
+</html>
